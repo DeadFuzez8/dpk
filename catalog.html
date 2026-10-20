@@ -16,6 +16,8 @@
         <a href="index.html#advantages">Преимущества</a>
         <a href="index.html#projects">Проекты</a>
         <a href="index.html#about">О компании</a>
+        <a href="#contacts">Сотрудничество</a>
+        <a href="#contacts">Где купить?</a>
         <a href="#contacts">Контакты</a>
       </nav>
       <div class="header__actions">
@@ -31,87 +33,154 @@
       <div class="container catalog-hero__inner">
         <p class="eyebrow">ПРЕМИАЛЬНАЯ ТЕРРАСНАЯ ДОСКА</p>
         <h1>Выберите идеальный<br>материал для вашей террасы</h1>
-        <p>Широкий ассортимент продукции из ДПК и ротанга. Создан для долговечности, комфорта и эстетики.</p>
+        <p>Древесно-полимерный композит бюджетного и премиального класса под Ваши задачи</p>
       </div>
     </section>
 
     <section class="catalog-panel">
       <div class="container">
-        <div class="material-tabs">
-          <button class="material-tab is-active" data-tab="dpk">ДРЕВЕСНО-ПОЛИМЕРНЫЙ КОМПОЗИТ</button>
-          <button class="material-tab" data-tab="rotang">РОТАНГ</button>
+        <div class="material-tabs" role="tablist" aria-label="Категории каталога">
+          <button class="material-tab is-active" type="button" data-tab="all">ВСЕ ТОВАРЫ</button>
+          <button class="material-tab" type="button" data-tab="board">ТЕРРАСНАЯ ДОСКА</button>
+          <button class="material-tab" type="button" data-tab="step">СТУПЕНИ И УНИВЕРСАЛЬНАЯ ДОСКА</button>
+          <button class="material-tab" type="button" data-tab="clip">КРЕПЁЖ</button>
         </div>
 
-        <div class="material-content is-active" data-content="dpk">
-          <div class="catalog-block">
+        <div class="material-content is-active">
+          <div class="catalog-block" id="boards" data-group="board">
             <h3>ТЕРРАСНАЯ ДОСКА</h3>
-            <div class="catalog-cards catalog-cards--4">
-              <article class="product-card"><div class="product-visual wood-1"></div><p class="product-card__meta">Террасная доска</p><h4>CLASSIC 3D</h4><span class="product-card__arrow">→</span></article>
-              <article class="product-card"><div class="product-visual wood-2"></div><p class="product-card__meta">Террасная доска</p><h4>PREMIUM DUO 3D</h4><span class="product-card__arrow">→</span></article>
-              <article class="product-card"><div class="product-visual wood-3"></div><p class="product-card__meta">Террасная доска</p><h4>ELLITE 3D полнотелая</h4><span class="product-card__arrow">→</span></article>
-              <article class="product-card"><div class="product-visual wood-4"></div><h4>Универсальная доска</h4><span class="product-card__arrow">→</span></article>
-            </div>
-          </div>
-
-          <div class="catalog-two-cols">
-            <div class="catalog-block">
-              <h3>СТУПЕНИ И ФИНИШНЫЕ ЭЛЕМЕНТЫ</h3>
-              <div class="catalog-cards catalog-cards--3">
-                <article class="product-card"><div class="product-visual gray-1"></div><h4>Ступень</h4><p class="product-card__meta">(финишная доска)</p><span class="product-card__arrow">→</span></article>
-                <article class="product-card"><div class="product-visual beige-1"></div><h4>Ступень полнотелая 3D</h4><span class="product-card__arrow">→</span></article>
-                <article class="product-card"><div class="product-visual brown-1"></div><h4>Ступень PREMIUM 3D</h4><p class="product-card__meta">(финишная доска)</p><span class="product-card__arrow">→</span></article>
-              </div>
-            </div>
-            <div class="catalog-block">
-              <h3>СИСТЕМА ОГРАЖДЕНИЯ ИЗ ДПК</h3>
-              <div class="catalog-cards catalog-cards--4">
-                <article class="product-card"><div class="product-visual dark-1"></div><h4>Столб</h4><span class="product-card__arrow">→</span></article>
-                <article class="product-card"><div class="product-visual dark-2"></div><h4>Перила</h4><span class="product-card__arrow">→</span></article>
-                <article class="product-card"><div class="product-visual dark-3"></div><h4>Балясина</h4><span class="product-card__arrow">→</span></article>
-                <article class="product-card"><div class="product-visual dark-4"></div><h4>Крышки/Юбки</h4><span class="product-card__arrow">→</span></article>
-              </div>
-            </div>
-          </div>
-
-          <div class="catalog-two-cols">
-            <div class="catalog-block">
-              <h3>СТЕНОВЫЕ ПАНЕЛИ И ПРОЧИЕ ЭЛЕМЕНТЫ</h3>
-              <div class="catalog-cards catalog-cards--2">
-                <article class="product-card product-card--tall"><div class="product-visual panel-1"></div><h4>Стеновая панель вертикальная</h4></article>
-                <div class="catalog-stack">
-                  <article class="product-card"><div class="product-visual panel-2"></div><h4>PREMIUM 3D Co-extrusion</h4><span class="product-card__arrow">→</span></article>
-                  <article class="product-card"><div class="product-visual panel-3"></div><h4>Лавочный брус из ДПК</h4><span class="product-card__arrow">→</span></article>
+            <div class="catalog-cards catalog-cards--3">
+              <article class="product-card" tabindex="0" role="button" data-name="Террасная доска DeckLine Classic" data-sub="3D-тиснение/двусторонняя" data-color="Темный Венге" data-price="1639 ₽/шт. (3902 ₽/м2)">
+                <div class="product-visual"><img src="img/products/classic-venge-dark.webp" alt="Террасная доска DeckLine Classic (Темный Венге)" loading="lazy"></div>
+                <div class="product-card__body">
+                  <p class="product-card__meta">3D-тиснение/двусторонняя</p>
+                  <h4>Террасная доска DeckLine Classic</h4>
+                  <p class="product-card__variant">Темный Венге</p>
+                  <p class="product-card__price">1639 ₽/шт. (3902 ₽/м2)</p>
                 </div>
-              </div>
-            </div>
-            <div class="catalog-block">
-              <h3>ПОПУЛЯРНЫЕ ОТТЕНКИ</h3>
-              <div class="shades-row">
-                <div class="shade shade-1"><span>Черный</span></div>
-                <div class="shade shade-2"><span>Бук</span></div>
-                <div class="shade shade-3"><span>Венге тёмный</span></div>
-                <div class="shade shade-4"><span>Венге светлый</span></div>
-                <div class="shade shade-5"><span>Серый</span></div>
-                <div class="shade shade-6"><span>Сосна</span></div>
-              </div>
-              <div class="feature-mini">
-                <div><img src="img/pain.png" alt="">Не впитывает влагу</div>
-                <div><img src="img/san.png" alt="">Не выгорает на солнце</div>
-                <div><img src="img/temp.png" alt="">Устойчива к перепадам t</div>
-                <div><img src="img/woter.png" alt="">Не требует сложного ухода</div>
-              </div>
+                <span class="product-card__arrow" aria-hidden="true">→</span>
+              </article>
+              <article class="product-card" tabindex="0" role="button" data-name="Террасная доска DeckLine Classic" data-sub="3D-тиснение/двусторонняя" data-color="Светлый Венге" data-price="1639 ₽/шт. (3902 ₽/м2)">
+                <div class="product-visual"><img src="img/products/classic-venge-light.webp" alt="Террасная доска DeckLine Classic (Светлый Венге)" loading="lazy"></div>
+                <div class="product-card__body">
+                  <p class="product-card__meta">3D-тиснение/двусторонняя</p>
+                  <h4>Террасная доска DeckLine Classic</h4>
+                  <p class="product-card__variant">Светлый Венге</p>
+                  <p class="product-card__price">1639 ₽/шт. (3902 ₽/м2)</p>
+                </div>
+                <span class="product-card__arrow" aria-hidden="true">→</span>
+              </article>
+              <article class="product-card" tabindex="0" role="button" data-name="Террасная доска DeckLine Classic" data-sub="3D-тиснение/двусторонняя" data-color="Черный" data-price="1639 ₽/шт. (3902 ₽/м2)">
+                <div class="product-visual"><img src="img/products/classic-black.webp" alt="Террасная доска DeckLine Classic (Черный)" loading="lazy"></div>
+                <div class="product-card__body">
+                  <p class="product-card__meta">3D-тиснение/двусторонняя</p>
+                  <h4>Террасная доска DeckLine Classic</h4>
+                  <p class="product-card__variant">Черный</p>
+                  <p class="product-card__price">1639 ₽/шт. (3902 ₽/м2)</p>
+                </div>
+                <span class="product-card__arrow" aria-hidden="true">→</span>
+              </article>
+              <article class="product-card" tabindex="0" role="button" data-name="Террасная доска DeckLine Premium DUO" data-sub="3D Co-extrusion /двухсторонняя" data-color="&quot;Венге&quot; / &quot;Черный&quot;" data-price="2063 ₽/шт. (4911 ₽/м2)">
+                <div class="product-visual"><img src="img/products/premium-duo-venge-black.webp" alt="Террасная доска DeckLine Premium DUO (Венге / Черный)" loading="lazy"></div>
+                <div class="product-card__body">
+                  <p class="product-card__meta">3D Co-extrusion /двухсторонняя</p>
+                  <h4>Террасная доска DeckLine Premium DUO</h4>
+                  <p class="product-card__variant">&quot;Венге&quot; / &quot;Черный&quot;</p>
+                  <p class="product-card__price">2063 ₽/шт. (4911 ₽/м2)</p>
+                </div>
+                <span class="product-card__arrow" aria-hidden="true">→</span>
+              </article>
+              <article class="product-card" tabindex="0" role="button" data-name="Террасная доска DeckLine Premium DUO" data-sub="3D Co-extrusion /двухсторонняя" data-color="&quot;Коричневый&quot; / &quot;Бук&quot;" data-price="2063 ₽/шт. (4911 ₽/м2)">
+                <div class="product-visual"><img src="img/products/premium-duo-brown-beech.webp" alt="Террасная доска DeckLine Premium DUO (Коричневый / Бук)" loading="lazy"></div>
+                <div class="product-card__body">
+                  <p class="product-card__meta">3D Co-extrusion /двухсторонняя</p>
+                  <h4>Террасная доска DeckLine Premium DUO</h4>
+                  <p class="product-card__variant">&quot;Коричневый&quot; / &quot;Бук&quot;</p>
+                  <p class="product-card__price">2063 ₽/шт. (4911 ₽/м2)</p>
+                </div>
+                <span class="product-card__arrow" aria-hidden="true">→</span>
+              </article>
+              <article class="product-card" tabindex="0" role="button" data-name="Террасная доска DeckLine Premium DUO" data-sub="3D Co-extrusion /двухсторонняя" data-color="&quot;Белый&quot; / &quot;Серебро&quot;" data-price="2063 ₽/шт. (4911 ₽/м2)">
+                <div class="product-visual"><img src="img/products/premium-duo-white-silver.webp" alt="Террасная доска DeckLine Premium DUO (Белый / Серебро)" loading="lazy"></div>
+                <div class="product-card__body">
+                  <p class="product-card__meta">3D Co-extrusion /двухсторонняя</p>
+                  <h4>Террасная доска DeckLine Premium DUO</h4>
+                  <p class="product-card__variant">&quot;Белый&quot; / &quot;Серебро&quot;</p>
+                  <p class="product-card__price">2063 ₽/шт. (4911 ₽/м2)</p>
+                </div>
+                <span class="product-card__arrow" aria-hidden="true">→</span>
+              </article>
             </div>
           </div>
-        </div>
 
-        <div class="material-content" data-content="rotang">
-          <div class="catalog-block">
-            <h3>РОТАНГ</h3>
-            <div class="catalog-cards catalog-cards--4">
-              <article class="product-card"><div class="product-visual rattan-1"></div><h4>Искусственный ротанг «ПМ-6»</h4><span class="product-card__arrow">→</span></article>
-              <article class="product-card"><div class="product-visual rattan-2"></div><h4>Искусственный ротанг «ПМ-9»</h4><span class="product-card__arrow">→</span></article>
-              <article class="product-card"><div class="product-visual rattan-3"></div><h4>Искусственный ротанг «ЛЕНТА»</h4><span class="product-card__arrow">→</span></article>
-              <article class="product-card"><div class="product-visual rattan-4"></div><h4>Искусственный ротанг «ТРУБКА»</h4><span class="product-card__arrow">→</span></article>
+          <div class="catalog-two-cols catalog-two-cols--2-1" data-group="step">
+          <div class="catalog-block" id="steps">
+            <h3>СТУПЕНИ</h3>
+            <div class="catalog-cards catalog-cards--2-eq">
+              <article class="product-card" tabindex="0" role="button" data-name="Ступень (Финишная доска) DeckLine Classic" data-sub="3D-тиснение" data-color="" data-price="3168 ₽ / шт.">
+                <div class="product-visual"><img src="img/products/step-classic.webp" alt="Ступень (Финишная доска) DeckLine Classic" loading="lazy"></div>
+                <div class="product-card__body">
+                  <p class="product-card__meta">3D-тиснение</p>
+                  <h4>Ступень (Финишная доска) DeckLine Classic</h4>
+                  <p class="product-card__price">3168 ₽ / шт.</p>
+                </div>
+                <span class="product-card__arrow" aria-hidden="true">→</span>
+              </article>
+              <article class="product-card" tabindex="0" role="button" data-name="Ступень DECKLINE PREMIUM 3D" data-sub="Co-extrusion" data-color="&quot;Венге&quot;" data-price="3485 ₽/шт.">
+                <div class="product-visual"><img src="img/products/step-premium-venge.webp" alt="Ступень DECKLINE PREMIUM 3D (Венге)" loading="lazy"></div>
+                <div class="product-card__body">
+                  <p class="product-card__meta">Co-extrusion</p>
+                  <h4>Ступень DECKLINE PREMIUM 3D</h4>
+                  <p class="product-card__variant">&quot;Венге&quot;</p>
+                  <p class="product-card__price">3485 ₽/шт.</p>
+                </div>
+                <span class="product-card__arrow" aria-hidden="true">→</span>
+              </article>
+            </div>
+          </div>
+          <div class="catalog-block" id="universal">
+            <h3>УНИВЕРСАЛЬНАЯ ДОСКА</h3>
+            <div class="catalog-cards catalog-cards--1">
+              <article class="product-card" tabindex="0" role="button" data-name="Универсальная доска DeckLine" data-sub="3D-тиснение/двухсторонняя" data-color="" data-price="1366 ₽ / шт.">
+                <div class="product-visual"><img src="img/products/universal-board.webp" alt="Универсальная доска DeckLine" loading="lazy"></div>
+                <div class="product-card__body">
+                  <p class="product-card__meta">3D-тиснение/двухсторонняя</p>
+                  <h4>Универсальная доска DeckLine</h4>
+                  <p class="product-card__price">1366 ₽ / шт.</p>
+                </div>
+                <span class="product-card__arrow" aria-hidden="true">→</span>
+              </article>
+            </div>
+          </div>
+          </div>
+
+          <div class="catalog-block" id="clips" data-group="clip">
+            <h3>КРЕПЁЖ</h3>
+            <div class="catalog-cards catalog-cards--3">
+              <article class="product-card" tabindex="0" role="button" data-name="Клипса стартовая металлическая для террасной доски DeckLine" data-sub="" data-color="" data-price="25 ₽ / шт.">
+                <div class="product-visual"><img src="img/products/clip-start-metal.webp" alt="Клипса стартовая металлическая для террасной доски DeckLine" loading="lazy"></div>
+                <div class="product-card__body">
+                  <h4>Клипса стартовая металлическая для террасной доски DeckLine</h4>
+                  <p class="product-card__price">25 ₽ / шт.</p>
+                </div>
+                <span class="product-card__arrow" aria-hidden="true">→</span>
+              </article>
+              <article class="product-card" tabindex="0" role="button" data-name="Клипса монтажная пластиковая для террасной доски DeckLine" data-sub="" data-color="" data-price="11 ₽ / шт.">
+                <div class="product-visual"><img src="img/products/clip-plastic.webp" alt="Клипса монтажная пластиковая для террасной доски DeckLine" loading="lazy"></div>
+                <div class="product-card__body">
+                  <h4>Клипса монтажная пластиковая для террасной доски DeckLine</h4>
+                  <p class="product-card__price">11 ₽ / шт.</p>
+                </div>
+                <span class="product-card__arrow" aria-hidden="true">→</span>
+              </article>
+              <article class="product-card" tabindex="0" role="button" data-name="Клипса монтажная металлическая HILST FIX Premium 3D для террасной доски DeckLine" data-sub="" data-color="" data-price="25 ₽ / шт.">
+                <div class="product-visual"><img src="img/products/clip-hilst-fix.webp" alt="Клипса монтажная металлическая HILST FIX Premium 3D для террасной доски DeckLine" loading="lazy"></div>
+                <div class="product-card__body">
+                  <h4>Клипса монтажная металлическая HILST FIX Premium 3D для террасной доски DeckLine</h4>
+                  <p class="product-card__price">25 ₽ / шт.</p>
+                </div>
+                <span class="product-card__arrow" aria-hidden="true">→</span>
+              </article>
             </div>
           </div>
         </div>
@@ -139,7 +208,9 @@
       </div>
       <div class="footer__column">
         <h4>КОНТАКТЫ</h4>
+        <p class="footer__label">Телефон:</p>
         <a href="tel:+78888888888">8 888 888-88-88</a>
+        <p class="footer__label">E-mail:</p>
         <a href="mailto:info@deckline.ru">info@deckline.ru</a>
       </div>
     </div>
@@ -152,26 +223,15 @@
 
       <div class="product-modal__layout">
         <section class="product-modal__gallery">
-          <div class="product-modal__main-image product-visual wood-1" id="productMainImage"></div>
-          <div class="product-modal__thumbs" id="productThumbs"></div>
+          <div class="product-modal__main-image" id="productMainImage"><img src="" alt=""></div>
         </section>
 
         <section class="product-modal__info">
-          <p class="eyebrow">КАРТОЧКА ТОВАРА</p>
+          <p class="eyebrow" id="productModalMeta">КАРТОЧКА ТОВАРА</p>
           <h2 id="productModalTitle">CLASSIC 3D</h2>
           <p class="product-modal__description" id="productDescription">
             Террасная доска с глубоким тиснением под натуральную текстуру дерева для частных и коммерческих объектов.
           </p>
-
-          <div class="size-scheme" id="sizeScheme">
-            <h3>Схема размеров</h3>
-            <div class="size-scheme__drawing">
-              <div class="size-scheme__board"></div>
-              <span class="size-label size-label--top" id="sizeLength">2200 мм</span>
-              <span class="size-label size-label--left" id="sizeWidth">146 мм</span>
-              <span class="size-label size-label--right" id="sizeHeight">23 мм</span>
-            </div>
-          </div>
 
           <div class="product-specs">
             <h3>Характеристики</h3>
